@@ -1,0 +1,16 @@
+{
+  "name": "hapi-tester",
+  "version": "1.0.0",
+  "description": "Testing Hapi performance",
+  "scripts": {
+    "clean": "rm -rf logs",
+    "prettier": "prettier --write '**/*.js'",
+    "test": "./scripts/test.sh"
+  },
+  "keywords": ["hapi"],
+  "author": "Cory Reed <swashcap@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.15.2"
+  }
+}
